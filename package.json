@@ -1,0 +1,26 @@
+{
+  "name": "md",
+  "version": "1.0.0",
+  "description": "just want to 跨平台",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7kg/md.git"
+  },
+  "author": "7kg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7kg/md/issues"
+  },
+  "homepage": "https://github.com/7kg/md#readme",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
