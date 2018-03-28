@@ -6,6 +6,8 @@
   "scripts": {
     "start": "electron .",
     "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out --icon=assets/app.icns",
+    "package:win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --out=out --icon=assets/app.ico",
+    "package:installer": "node ./script/installer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +22,8 @@
   "homepage": "https://github.com/7kg/md#readme",
   "devDependencies": {
     "electron": "^1.8.4",
+    "electron-winstaller": "^2.2.0",
+    "rimraf": "^2.5.2",
     "electron-packager": "^11.2.0"
   },
   "dependencies": {
